@@ -1,0 +1,230 @@
+body{
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#F0FFF0;
+    margin-bottom:80px;
+}
+
+.container{
+    margin-bottom: 80px;
+}
+  
+
+/* header section */
+
+.img-fluid{
+    width: 120px;
+}
+.green-bg{
+    background-color: #F0FFF0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button-1{
+    display: flex;
+    color: white;
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    padding: 12px 28px;
+}
+.button-2{
+    display: flex;
+    color: white;
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    padding: 12px 36px;
+    cursor: pointer;
+}
+.header-img{
+    justify-content: center;
+}
+
+/* box section */
+
+.box-section-1 .card-img-top {
+    max-width: 75px;
+    margin: 0 auto;
+    max-height: 122px;
+}
+
+.box .card-deck {
+    text-align: center;
+    padding: 40px;
+}
+.box .card img-fluid {
+    padding-top: 40px;
+}
+
+.box .card{
+    border:none;
+    background: #F8FFFB;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+.box .card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.box-section-1 h5{
+    text-align: center;
+}
+.box-section-1 p{
+    color: gray;
+    text-align: center;
+}
+
+/* online courses section */
+.online-courses .card{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1) ;
+    padding: 20px 25px;
+    text-align: left;
+}
+.courses h1{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    margin-bottom: 60px;
+
+}
+
+.online-courses h5{
+    text-align: left;
+}
+.online-courses p{
+    color: gray;
+    text-align: left;
+}
+
+
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color:  #413960;
+}
+.cbutton{
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    color: #fff;
+    padding: 12px 36px;
+    cursor: pointer;
+}
+
+.inleft {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.inleft .img-fluid {
+    width: 22px;
+    height: 22px;
+    display: inline;
+    margin: auto;
+}
+
+.inleft p {
+    margin-bottom: 0;
+    padding: 0 30px;
+    display: inline;
+    font-family: Poppins;
+    font-style: normal;
+    color: #585859;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    position: absolute;
+}
+.inleft .icon p {
+    margin: 0;
+}
+.card-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    width: 75%;
+}
+/* testimonial */
+
+.testimonial h1{
+     text-align: center;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 36px;
+     color: #000000;
+
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.picture .img-fluid {
+    width: 280px;
+    height: 110px;
+    position: relative;
+    padding-right: 30px;
+}
+
+
+
+
+/* footer section */
+
+.footer-section{
+    background: #282531;
+    padding:30px 30px;
+}
+
+
+footer p{
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+footer li{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+footer ul li{
+    padding: 0;
+    list-style: none;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
