@@ -2,13 +2,9 @@ body{
     font-size:16px;
     font-family: 'Poppins', sans-serif;
 }
-header{
-    background-color:#F0FFF0;
-    margin-bottom:80px;
-}
-
 .container{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    padding-top: 10px;
 }
   
 
@@ -43,20 +39,18 @@ header{
     justify-content: center;
 }
 
-/* box section */
+/* student box section */
 
 .box-section-1 .card-img-top {
-    max-width: 75px;
+    margin-top: 30px;
+    height: 230px;
+    width: 230px;
+    border: none;
     margin: 0 auto;
-    max-height: 122px;
-}
-
-.box .card-deck {
-    text-align: center;
-    padding: 40px;
-}
-.box .card img-fluid {
-    padding-top: 40px;
+    max-height: 120px;
+    width: 66px;
+    height: 75px;
+    margin: 40px 82px;
 }
 
 .box .card{
@@ -165,29 +159,23 @@ header{
 }
 /* testimonial */
 
-.testimonial h1{
-     text-align: center;
-     font-family: Poppins;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 36px;
-     color: #000000;
-
+.testimonial-header{
+    padding-top:80px;
+}
+.testimonial-header h2{
+    font-weight:bolder;
+}
+.testimonial-body{
+    margin-top:40px;
+    padding-left:180px;
+    padding-right:180px;
 }
 
-.person {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-.picture .img-fluid {
-    width: 280px;
-    height: 110px;
-    position: relative;
-    padding-right: 30px;
+.testimonial-body img{
+    width: 120px;
+    height: 120px;
+    margin-right:40px;
+    
 }
 
 
@@ -197,7 +185,8 @@ header{
 
 .footer-section{
     background: #282531;
-    padding:30px 30px;
+    padding: 30px 20px;
+   
 }
 
 
