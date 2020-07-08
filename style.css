@@ -24,7 +24,7 @@ body{
     background-color: #21B573;
     border-radius: 33px;
     border: none;
-    padding: 12px 28px;
+    padding: 8px 25px;
 }
 .button-2{
     display: flex;
@@ -32,11 +32,12 @@ body{
     background-color: #21B573;
     border-radius: 33px;
     border: none;
-    padding: 12px 36px;
+    padding: 10px 36px;
     cursor: pointer;
 }
 .header-img{
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 /* student box section */
@@ -160,7 +161,7 @@ body{
 /* testimonial */
 
 .testimonial-header{
-    padding-top:80px;
+    padding-top:30px;
 }
 .testimonial-header h2{
     font-weight:bolder;
@@ -178,8 +179,36 @@ body{
     
 }
 
+/* Joining section */
 
+.joining-section{
+    
+    padding: 30px 60px;
 
+}
+.joining-section h2{
+    font-weight:bolder;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.join-btn{
+    color: white;
+    background-color: #21B573;
+    border: none;
+    padding: 10px 36px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.join-btn:hover{
+    box-shadow:0px 0px 10px green;
+
+}
 
 /* footer section */
 
